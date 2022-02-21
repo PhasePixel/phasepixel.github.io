@@ -10,8 +10,8 @@ body
 	font: 24px 'Open Sans', verdana; color: #999999;
 }
 
-a:link, a:visited, a:active	{text-decoration: none;	color: #ffffff;}
-a:hover	{text-decoration: none;	color: #ff8181;}
+a:link, a:visited, a:active	{text-decoration: none;	color: #9100cf;}
+a:hover	{text-decoration: none;	color: #ffffff;}
 
 h1{	font: bold 36px 'Open Sans', verdana; color: #9100cf;
 	padding-bottom: 24px;
