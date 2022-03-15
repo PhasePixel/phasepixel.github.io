@@ -56,8 +56,7 @@ h3{	font: bold italic 16px 'Open Sans', verdana; color: #cccccc;
 #footer
 {
 	background: #1c002c;
-	position:absolute;
-	bottom: 0;
+
 	width: 100%;
 	height: 64px;
 	text-align: center;
