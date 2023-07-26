@@ -22,7 +22,7 @@ h1{	font: bold 32px 'Open Sans', verdana; color: #9100cf;
 	margin: 0;
 	text-align: center;
 }
-h2{	font: bold 24px 'Open Sans', verdana; color: #cccccc;
+h2{	font: bold 24px 'Open Sans', verdana; color: #ff8c00;
 	text-transform: uppercase;
 	margin-top: 0;
 	padding-top: 10;
@@ -44,7 +44,7 @@ h3{	font: bold italic 16px 'Open Sans', verdana; color: #cccccc;
 	padding: 16;
 	text-align: center;
 	background: #000000;
-	font: 28px 'Open Sans', verdana;
+	font: 28px 'Open Sans', verdana; color: #ff8c00;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	word-spacing: 50px;
