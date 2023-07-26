@@ -5,7 +5,7 @@ body
 	background: #110015 url('bg.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
-	/*  background-attachment:fixed; */
+	background-attachment:fixed;
 	margin: 0;
 	padding: 0;
 	text-align: center;
