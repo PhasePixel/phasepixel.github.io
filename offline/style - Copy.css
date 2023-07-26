@@ -1,0 +1,213 @@
+/* Bodies
+----------------------------------------------- */
+
+BODY
+{
+	background: #000000;
+	/*background: #000000 url('bg.jpg') repeat-x fixed bottom left;*/
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	overflow-y: scroll;
+}
+
+#container
+{
+	background: #0B1021;
+	width: 720px;
+	margin: auto;
+	padding: 15px;
+	border-left: 0px dotted #3E5196;
+	border-right: 0px dotted #3E5196;
+}
+
+#header
+{
+	background: #000000;
+	width: 720px;
+	margin: auto;
+	border: 1px dotted #3E5196;
+}
+
+#menu
+{
+	padding: 10px 0 10px 0;
+	background: #1B2445;
+	text-align: center;
+	font: bold 18px century gothic, arial; color: #ffffff;
+	letter-spacing: 6px;
+	word-spacing: 75px;
+}
+
+#submenu
+{
+	background: #0B1021;
+	text-align: center;
+	padding: 10 0 10 0;
+	font: bold 12px arial; color: #999999;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
+#main
+{
+	background-color: RGBA(0,0,0,.5);
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	padding: 35px;
+	font: 12px arial; color: #999999;
+	line-height: 150%;
+	text-align: justify;
+	border: 1px dotted #3E5196;
+	
+}
+
+
+#footer
+{
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	background: #161D39;
+	text-align: center;
+	padding: 20 35 20 35;
+	font: 11px arial; color: #ACB3DE;
+	border: 1px dotted #3E5196;
+}
+
+
+
+TD
+{
+	font: 12px arial; color: #888888;
+	vertical-align: top;
+	text-align: justify;
+	line-height: 150%;
+}
+
+/* Headers and Fonts
+----------------------------------------------- */
+
+
+H1
+{
+	margin-top: 0;
+	margin-bottom: 30px;
+	font: bold 16px century gothic, arial;; color: #ffffff;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+
+h2
+{
+	font: bold 15px century gothic, arial;; color: #ACB3DE;
+	letter-spacing: 2px;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+h3
+{
+	font: bold 13px arial; color: #ACB3DE;
+	letter-spacing: 1px;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+h4
+{
+	font: bold 12px arial; color: #ACB3DE;
+	letter-spacing: 1px;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+small
+{
+	font: bold 10px arial; color: #ACB3DE;
+}
+
+
+/* Links
+----------------------------------------------- */
+
+a:link
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #7D8BCF;
+}
+
+
+a:visited
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #7D8BCF;
+}
+
+
+a:active
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #7D8BCF;
+}
+
+
+a:hover
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/* Borders
+----------------------------------------------- */
+
+.border
+{
+	border: 3px solid #000000;
+	background: #161D39;
+}
+
+.border2
+{
+	border: 1px dotted #3E5196;
+}
+
+#right
+{
+	margin: 0 0 0 20px;
+}
+
+#left
+{
+	margin: 0 20px 0 0;
+}
+
+
+
+/* Misc
+----------------------------------------------- */
+
+object
+{
+	margin-bottom: 25px;
+}
+
+.transOFF
+{
+	border: 2px solid #ffffff;
+}
+.transON 
+{
+	opacity: .5;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	border: 2px solid #000000;
+}

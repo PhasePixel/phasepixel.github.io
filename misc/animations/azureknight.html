@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+<TITLE>Azure Knight</TITLE>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</HEAD><body><table background="azurebg.jpg" cellpadding="15"><td>
+
+
+<script type="text/javascript">
+  <!--
+
+    knight = new Image();
+    knight.src = "../../artwork/pixel/knightkevin.gif";
+    azureknight = new Image();
+    azureknight.src = "azureknightkevin.gif";
+
+    function imageChange(imageID, imageName)
+    {
+      document.images[imageID].src = eval(imageName + ".src");
+    }
+
+  // -->
+</script> 
+
+
+
+<font face="arial" color="#ffffff" size="1">Click on him to view the animation</font>
+
+</td><td>
+
+<img src="../../artwork/pixel/knightkevin.gif" border="0" id="knight" onclick="imageChange('knight', 'azureknight')"
+onmouseover="imageChange('knight', 'knight')"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+
+
+
+</td></table></BODY></HTML>

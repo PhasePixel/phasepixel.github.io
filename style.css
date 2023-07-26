@@ -2,7 +2,10 @@
 ----------------------------------------------- */
 body
 {
-	background: #0f0611;
+	background: #110015 url('bg.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/*  background-attachment:fixed; */
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -10,15 +13,17 @@ body
 	font: 24px 'Open Sans', verdana; color: #999999;
 }
 
-a:link, a:visited, a:active	{text-decoration: none;	color: #9100cf;}
+a:link, a:visited, a:active	{text-decoration: none;	color: #b300ff;}
 a:hover	{text-decoration: none;	color: #ffffff;}
 
-h1{	font: bold 36px 'Open Sans', verdana; color: #9100cf;
+h1{	font: bold 32px 'Open Sans', verdana; color: #9100cf;
 	padding-bottom: 24px;
+	text-transform: uppercase;
 	margin: 0;
 	text-align: center;
 }
 h2{	font: bold 24px 'Open Sans', verdana; color: #cccccc;
+	text-transform: uppercase;
 	margin-top: 0;
 	padding-top: 10;
 }
@@ -34,15 +39,26 @@ h3{	font: bold italic 16px 'Open Sans', verdana; color: #cccccc;
 	width: 100%;
 	text-align: center;
 	font: bold 20px 'Open Sans', verdana; color: #ffffff;
-	padding-top: 0px;
-	padding-bottom: 32px;
 }
+#menu	{
+	padding: 16;
+	text-align: center;
+	background: #000000;
+	font: 28px 'Open Sans', verdana;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	word-spacing: 50px;
+	border-bottom: 2px solid #333333;
+}
+#menu a:link, #menu a:visited, #menu a:active {	text-decoration: none;	color: #aabef8;	}
+#menu a:hover {	text-decoration: none;	color: #ffffff;	}
+
+
 #main
 {
 	background-color: #080000;
 	border: 3px solid #1c002c;
 	width: 960px;
-	height: 480px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 48px;
@@ -51,18 +67,14 @@ h3{	font: bold italic 16px 'Open Sans', verdana; color: #cccccc;
 	font: 16px 'Open Sans', verdana; color: #ffffff;
 	line-height: 150%;
 	text-align: justify;
-	border-radius: 24px;
+	border-radius: 16px;
 }
 #footer
 {
-	background: #1c002c;
-	position: absolute;
-  	bottom: -128;
-	width: 100%;
-	height: 64px;
 	text-align: center;
-	padding-top: 12px;
-	font: bold 16px 'Open Sans', verdana; color: #ffffff;
+	margin: 16px;
+	padding: 10px ;
+	font: 11px 'Open Sans', verdana; color: #ffffff;
 }
 
 
@@ -92,10 +104,10 @@ TD
 
 .border
 {
-	border: 0px;
+	border: 1px solid #333333;
 	background: #111111;
-	border-radius: 16px;
-	margin: 0 24 0 0;
+	border-radius: 4px;
+	margin: 0 5 0 0;
 	padding: 0;
 }
 .border2
@@ -103,6 +115,15 @@ TD
 	border: 1px solid #555555;
 	border-radius: 5px;
 }
+.borderBig
+{
+	border: 0px;
+	background: #111111;
+	border-radius: 16px;
+	margin: 0 24 0 0;
+	padding: 0;
+}
+
 .soundcloud
 {
 	opacity: 0.75;
@@ -135,12 +156,14 @@ TD
 	opacity: .5;
 	filter: alpha(opacity=50);
 	opacity: 0.75;
+	border: 1px solid #888888;
 	margin: 0 0 10 0;
 	padding: 0;
 	border-radius: 5px;
 }
 .transOFF
 {
+	border: 1px solid #ffffff;
 	margin: 0 0 10 0;
 	padding: 0;
 	border-radius: 5px;

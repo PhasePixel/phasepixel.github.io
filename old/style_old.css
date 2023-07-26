@@ -1,0 +1,147 @@
+/*	GENERAL
+----------------------------------------------- */
+body
+{
+	background: #0f0611;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	overflow-y: scroll;
+	font: 24px 'Open Sans', verdana; color: #999999;
+}
+
+a:link, a:visited, a:active	{text-decoration: none;	color: #9100cf;}
+a:hover	{text-decoration: none;	color: #ffffff;}
+
+h1{	font: bold 36px 'Open Sans', verdana; color: #9100cf;
+	padding-bottom: 24px;
+	margin: 0;
+	text-align: center;
+}
+h2{	font: bold 24px 'Open Sans', verdana; color: #cccccc;
+	margin-top: 0;
+	padding-top: 10;
+}
+h3{	font: bold italic 16px 'Open Sans', verdana; color: #cccccc;
+	margin-top: 0;
+	padding-top: 0;
+}
+/* DIVS
+----------------------------------------------- */
+#header
+{
+	background: #000000;
+	width: 100%;
+	text-align: center;
+	font: bold 20px 'Open Sans', verdana; color: #ffffff;
+	padding-top: 0px;
+	padding-bottom: 32px;
+}
+#main
+{
+	background-color: #080000;
+	border: 3px solid #1c002c;
+	width: 960px;
+	height: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 48px;
+	margin-bottom: 48px;
+	padding: 24px;
+	font: 16px 'Open Sans', verdana; color: #ffffff;
+	line-height: 150%;
+	text-align: justify;
+	border-radius: 24px;
+}
+#footer
+{
+	background: #1c002c;
+	position: absolute;
+  	bottom: -128;
+	width: 100%;
+	height: 64px;
+	text-align: center;
+	padding-top: 12px;
+	font: bold 16px 'Open Sans', verdana; color: #ffffff;
+}
+
+
+iframe
+{
+	background: 000000;
+	padding: 0px;
+	margin: 0px;
+}
+
+#table
+{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+TD
+{
+	font: 13px 'Open Sans', verdana; color: #999999;
+	vertical-align: top;
+	text-align: justify;
+	line-height: 150%;
+}
+
+/* Borders
+----------------------------------------------- */
+
+.border
+{
+	border: 0px;
+	background: #111111;
+	border-radius: 16px;
+	margin: 0 24 0 0;
+	padding: 0;
+}
+.border2
+{
+	border: 1px solid #555555;
+	border-radius: 5px;
+}
+.soundcloud
+{
+	opacity: 0.75;
+	border: 1px solid #555555;
+	border-radius: 5px;
+}
+.icon
+{
+	border: 1px solid #444444;
+	border-radius: 4px;
+	margin: 0 2 6 2;
+	padding: 5;
+	background: #111111;
+	vertical-align: text-top;
+}
+.icon50
+{
+	border: 1px solid #444444;
+	border-radius: 4px;
+	margin: 0 2 6 2;
+	padding: 4;
+	background: #111111;
+	vertical-align: text-top;
+}
+
+/* TRANSPARENT SQUARES
+----------------------------------------------- */
+.transON 
+{
+	opacity: .5;
+	filter: alpha(opacity=50);
+	opacity: 0.75;
+	margin: 0 0 10 0;
+	padding: 0;
+	border-radius: 5px;
+}
+.transOFF
+{
+	margin: 0 0 10 0;
+	padding: 0;
+	border-radius: 5px;
+}
